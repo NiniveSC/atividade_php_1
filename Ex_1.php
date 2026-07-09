@@ -8,7 +8,7 @@ function calcularFormula ($x, $y)
         return "Não é possível realizar a divisão por zero";
     }
 
-    %resultado = (pow($x, 2) + pow($y, 2)) / ($x + $y);
+    $resultado = (pow($x, 2) + pow($y, 2)) / ($x + $y);
 
     return $resultado;
 }
@@ -18,4 +18,4 @@ $y = 5;
 
 echo "Valor de x: $x <br>";
 echo "Valor de y: $y <br><br>";
-echo "Resultado: " . calcularFormula($x, 4y);
+echo "Resultado: " . calcularFormula($x, $y);
