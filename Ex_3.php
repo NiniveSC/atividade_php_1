@@ -6,7 +6,7 @@
         return $cpf_mascarado;
     }
 
-    $cpf = "09812387645"
+    $cpf = "09812387645";
     $resultado = mascara_cpf($cpf);
 
     echo "O CPF é: $cpf <br>";
