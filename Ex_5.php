@@ -1,7 +1,7 @@
 <?php
 
-function analisar_texto($texto);
-
+function analisar_texto($texto)
+    {
     $caracteres = str_word_count($texto);
     $palavras = strlen($texto);
     $vogais = 0;
@@ -17,6 +17,7 @@ function analisar_texto($texto);
             $consoantes++;
         }
 
+    }
     }
 
     echo "A quantidade de palavras é: " . $palavras . "<br>";
