@@ -29,4 +29,4 @@ function analisar_texto($texto)
 
     echo "O texto é: " . $texto . "<br>";
 
-    analisar_texto($texto):
+    analisar_texto($texto);
