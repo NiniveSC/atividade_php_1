@@ -2,8 +2,8 @@
 
 function analisar_texto($texto)
     {
-    $caracteres = str_word_count($texto);
-    $palavras = strlen($texto);
+    $palavras = str_word_count($texto);
+    $caracteres = strlen($texto);
     $vogais = 0;
     $consoantes = 0;
 
