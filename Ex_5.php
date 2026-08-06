@@ -25,7 +25,7 @@ function analisar_texto($texto)
     echo "A quantidade de vogais é: " . $vogais . "<br>";
     echo "A quantidade de consoantes é: " . $consoantes . "<br>";
 
-    $texto = "Exercício PHP"
+    $texto = "Exercício PHP";
 
     echo "O texto é: " . $texto . "<br>";
 
