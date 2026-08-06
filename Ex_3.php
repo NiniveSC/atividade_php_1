@@ -1,6 +1,6 @@
 <?php
 
-    function mascararCPF($cpf)
+    function mascara_CPF($cpf)
     {
         $cpf_mascarado = str_repeat("*", strlen($cpf) - 4) . substr($cpf, -4);
         return $cpf_mascarado;
