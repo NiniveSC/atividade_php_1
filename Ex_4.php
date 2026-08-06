@@ -2,7 +2,7 @@
 
 function gerar_senha($quantidade) 
     {
-    $caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+    $caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     $senha = '';
 
     for($i=0; $i< $quantidade; $i++) {
