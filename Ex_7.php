@@ -1,13 +1,14 @@
 <?php
 
-function calcular_desconto($valor, $desconto){
+function calcular_desconto($valor, $desconto)
+    {
     if ($valor > 1000){
         $desconto = 30;
-    } else if ($valor > 500){
+    }elseif($valor > 500){
         $desconto = 20;
-    } else if ($valor > 100){
+    }elseif($valor > 100){
         $desconto = 10;
-    } else {
+    }else{
         $desconto = 0;
     }
 
@@ -17,9 +18,11 @@ function calcular_desconto($valor, $desconto){
     return "O valor original é: R$ $valor <br>
     O desconto aplicado é: $desconto% <br>
     O valor com desconto é: R$ $valor_final <br>;
+    }
+    
 
-}
 
-    $valor = 650;
 
-    echo calcular_desconto($valor, 0);
+$valor = 650;
+
+echo calcular_desconto($valor, 0);
