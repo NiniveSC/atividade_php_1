@@ -14,9 +14,9 @@ function calcular_desconto($valor, $desconto){
     $valor_desconto = ($valor * $desconto)/ 100;
     $valor_final = $valor - $valor_desconto;
 
-    return "O valor original é: " R$ $valor "<br>";
-    return "O desconto aplicado é: " $desconto% "<br>";
-    return "O valor com desconto é: " R$ $valor_final "<br>";
+    return "O valor original é: " . R$ $valor . "<br>";
+    return "O desconto aplicado é: . " $desconto% . "<br>";
+    return "O valor com desconto é: . " R$ $valor_final . "<br>";
 
 }
 
