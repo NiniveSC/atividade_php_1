@@ -31,7 +31,7 @@ function analisar_numeros($numero){
     if($soma == $numero){
         $perfeito = "O número é perfeito";
     } else {
-        $perfeito = "O número não é perfeito"
+        $perfeito = "O número não é perfeito";
     }
 
     $numero = 59;
