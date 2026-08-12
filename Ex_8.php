@@ -6,7 +6,7 @@ function ordenar_nomes ($nomes){
     foreach($vetor as &$nome){
         $nome = trim($nome);
     }
-    sort($nome);
+    sort($vetor);
 
     return implode(",",$vetor);
 }
