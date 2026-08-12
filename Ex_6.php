@@ -2,7 +2,7 @@
 
 function converter_temperatura($valor, $origem, $destino){
     if ($origem == "C" && $destino == "F"){
-        $resultado = (valor * 9/5) + 32;
+        $resultado = ($valor * 9/5) + 32;
     }
 
     else if ($origem == "C" && $destino == "K"){
