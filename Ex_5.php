@@ -16,8 +16,6 @@ function analisar_texto($texto)
         else if (ctype_alpha($letra)) {
             $consoantes++;
         }
-
-    }
     }
 
     echo "A quantidade de palavras é: " . $palavras . "<br>";
@@ -25,8 +23,10 @@ function analisar_texto($texto)
     echo "A quantidade de vogais é: " . $vogais . "<br>";
     echo "A quantidade de consoantes é: " . $consoantes . "<br>";
 
-    $texto = "Exercício PHP";
+    }
 
+    $texto = "Leão do SERASA";
+ 
     echo "O texto é: " . $texto . "<br>";
 
     analisar_texto($texto);
