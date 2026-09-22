@@ -34,8 +34,12 @@ function analisar_numeros($numero){
         $perfeito = "O número não é perfeito";
     }
 
+    return "Número: $numero<br>
+            O número é $par_impar.<br>
+            $primo.<br>
+            $perfeito.";
+}
+
     $numero = 59;
 
     echo analisar_numeros($numero);
-
-}
