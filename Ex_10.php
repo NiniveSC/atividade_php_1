@@ -10,6 +10,8 @@ function calcular_media($notas){
         $soma += $nota;
     }
 
+    $media = $soma / count($notas);
+
     if($media >= 7){
         $resultado = "Esta Aprovado";        
     }elseif($media >= 5){
@@ -18,5 +20,13 @@ function calcular_media($notas){
         $resultado = "Esta Reprovado";
     }
 
-    return ""
+    return "Maior nota: $maior_nota <br>
+            Menor nota: $menor_nota <br>
+            Média: $media <br>
+            Resultado: $resultado";
     }
+
+    $notas = array(5, 2, 10, 8);
+
+    echo "Notas: " . implode(",", $notas) . "<br>";
+    echo calcular_media($notas);
