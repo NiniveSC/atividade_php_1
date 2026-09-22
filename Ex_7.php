@@ -12,17 +12,16 @@ function calcular_desconto($valor, $desconto)
         $desconto = 0;
     }
 
+
     $valor_desconto = ($valor * $desconto)/ 100;
     $valor_final = $valor - $valor_desconto;
 
     return "O valor original é: R$ $valor <br>
     O desconto aplicado é: $desconto% <br>
-    O valor com desconto é: R$ $valor_final <br>;
+    O valor com desconto é: R$ $valor_final <br>";
+
     }
     
-
-
-
 $valor = 650;
 
 echo calcular_desconto($valor, 0);
