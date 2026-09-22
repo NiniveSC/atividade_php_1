@@ -25,7 +25,7 @@ function analisar_texto($texto)
 
     }
 
-    $texto = "Leão do SERASA";
+    $texto = "Leao do SERASA";
  
     echo "O texto é: " . $texto . "<br>";
 
