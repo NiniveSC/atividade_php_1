@@ -9,12 +9,12 @@ function analisar_produtos ($produtos, $pesquisa){
     $produto_mais_barato = array_search($menor_preco, $produtos);
 
     $resultado = "<br>Produto mais caro: R$ " . $maior_preco;
-    $resultado = "<br>Produto mais barato: R$ " . $menor_preco;
-    $resultado = "<br>Média de preço dos produtos: R$ " . $media_preco;
+    $resultado .= "<br>Produto mais barato: R$ " . $menor_preco;
+    $resultado .= "<br>Média de preço dos produtos: R$ " . $media_preco;
 
     if(array_key_exists($pesquisa, $produtos))
         $resultado .= "<br>Produto informado: R$ " . $produtos[$pesquisa];
-    }else{
+    else{
         $resultado .= "<br>Produto informado não encontrado";
     }
     return $resultado;
@@ -23,8 +23,8 @@ function analisar_produtos ($produtos, $pesquisa){
     $produtos = [
         "Pão" => 15.00,
         "Queijo" => 7.50,
-        "Presunto" => 13.90
-        "Margarina" => 10.90
+        "Presunto" => 13.90,
+        "Margarina" => 10.90,
     ];
 
     $pesquisa = "Pão";
