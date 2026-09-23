@@ -22,7 +22,7 @@ function descriptografar_mensagem($texto){
     return $resultado;
 }
 
-$mensagem = "SERASA das atividades"
+$mensagem = "SERASA das atividades";
 
 echo "Mensagem Original: ".$mensagem."<br>";
 
