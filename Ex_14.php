@@ -40,7 +40,7 @@ function estatisticas_numericas($numeros){
     return $resultado;
 }
 
-$numeros [10,3,16,8,3];
+$numeros = [10, 3, 16, 8, 4, 6];
 
 echo "Números dados: " . implode(", ",$numeros) . "<br><br>";
 echo estatisticas_numericas($numeros);
