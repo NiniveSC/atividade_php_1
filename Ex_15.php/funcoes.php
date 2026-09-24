@@ -20,7 +20,7 @@ function gerar_senhas(){
 }
 
 function contar_vogais($texto){
-    return preg_match_all("/[aeiouAEIOU]/, $texto");
+    return preg_match_all("/[aeiouAEIOU]/", $texto);
 }
 
 function inverter_texto($texto){
